@@ -1,0 +1,6 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  place-content: center; /* to place items i.e boxes in the center of the col*/
+  justify-content: center; /* to place the grid in the center of the page */
+}
